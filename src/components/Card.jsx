@@ -12,7 +12,7 @@ const Card = ({data,category}) => {
               </div>
               <div className='flex justify-between'>
               <div className='flex gap-1 items-center'>
-                <img src="../public/resources/Star_fill.svg" alt="star" />
+                <img src="/resources/Star_fill.svg" alt="star" />
                 <h3 className='font-semibold'>{data.rating}</h3>
                 <span className='text-gray-400 text-sm'>({data.votes} votes)</span>
                 
