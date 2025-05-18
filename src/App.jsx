@@ -25,10 +25,10 @@ const App = () => {
   return (
     <div className='relative bg-black h-full'>
       <img src="/resources/bg-cafe-lg.jpg" className='' alt="" />
-      <div className='bg-[#1C1C1E] text-white font-poppins relative md:mx-[14rem]  md:-mt-28 z-20 rounded-3xl md:p-10 p-4'>
+      <div className='bg-[#1C1C1E] text-white font-poppins relative md:mx-32  md:-mt-28 z-20 rounded-3xl md:p-10 p-4'>
         <div className='flex flex-col items-center  justify-center'>
           <h1 className='text-2xl  font-semibold'>Our Collection</h1>
-          <p className='text-gray-400 w-[50%] text-sm mt-4'>Introducing our Coffee Collection a selection of unique coffees from different roast type and origins , expertly roasted in small batched and fresh weekly</p>
+          <p className='text-gray-400 md:w-[50%] text-sm mt-4'>Introducing our Coffee Collection a selection of unique coffees from different roast type and origins , expertly roasted in small batched and fresh weekly</p>
         </div>
         <div className='my-4 text-sm flex justify-center gap-5'>
 

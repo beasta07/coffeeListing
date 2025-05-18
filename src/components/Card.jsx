@@ -5,7 +5,7 @@ const Card = ({data,category}) => {
   return (
     <>
             <div className='relative' key={data.id}>
-              <img src={data.image} className=' rounded-2xl w-[20rem] object-cover' alt="Product Image" />
+              <img src={data.image} className=' rounded-2xl w-full object-cover' alt="Product Image" />
               <div className='flex my-2 justify-between'>
                 <h2>{data.name}</h2>
                 <span className='bg-green-50 p-2 rounded-xl text-black text-sm'>{data.price}</span>
